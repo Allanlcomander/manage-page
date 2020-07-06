@@ -1,1 +1,1 @@
-{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAAA,KACE,iBAAkB","file":"main.min.css","sourcesContent":["body{\n    background-color: green;\n}"]}
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAAA,KACE,iBAAkB,MAGpB,QACE,QAAS,KAGX,aACE,UAAW,KACX,WAAY,OAGd,eACE,MAAO","file":"main.min.css","sourcesContent":["body{\n    background-color: green;\n}\n\n.mobile{\n    display: none;\n}\n.attribution { font-size: 11px; text-align: center; }\n.attribution a { color: hsl(228, 45%, 44%); }"]}
