@@ -1,5 +1,36 @@
-body {
-  background-color: green;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar-links {
+  margin: 0 auto;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 2rem;
+  padding: 10px;
+}
+
+.navbar-links ul li {
+  list-style: none;
+}
+
+.navbar-links ul li a {
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+  font-weight: 400;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .mobile {

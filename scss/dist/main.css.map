@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["main.scss"],"sourcesContent":["body{\n    background-color: green;\n}\n\n.mobile{\n    display: none;\n}\n.attribution { font-size: 11px; text-align: center; }\n.attribution a { color: hsl(228, 45%, 44%); }"],"file":"main.css"}
+{"version":3,"names":[],"mappings":"","sources":["main.scss"],"sourcesContent":["@import\"./navigation\";\n@import\"./reset\";\n\n\n.mobile{\n    display: none;\n}\n.attribution { font-size: 11px; text-align: center; }\n.attribution a { color: hsl(228, 45%, 44%); }"],"file":"main.css"}
