@@ -61,6 +61,7 @@
   display: block;
   font-weight: 400;
   color: #242d52;
+  font-weight: 500;
 }
 
 .cta {
@@ -69,8 +70,10 @@
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
   cursor: pointer;
+  outline: none;
 }
 
 /* navigation responsiveness */
