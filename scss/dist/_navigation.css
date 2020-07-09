@@ -63,6 +63,16 @@
   color: #242d52;
 }
 
+.cta {
+  background-color: #f25f3a;
+  color: #ffefeb;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 /* navigation responsiveness */
 @media (max-width: 768px) {
   header {

@@ -1,3 +1,8 @@
+@import"./variables";
+
+
+
+
 /*toggle button  */
 .toggle-btn {
     display: none;
@@ -79,6 +84,16 @@
         }
 
     }
+}
+
+.cta{
+  background-color: $button-colors;
+  color: $button-textColor;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 
