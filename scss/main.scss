@@ -2,6 +2,23 @@
 @import"./reset";
 
 
+// variables
+
+$font-weights:(
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+
+);
+
+//  functions
+
+@function weight($weight-name){
+    
+    @return map-get($font-weights,$weight-name );
+}
+
+
 .mobile{
     display: none;
 }
