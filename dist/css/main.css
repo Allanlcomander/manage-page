@@ -85,6 +85,8 @@
   font-weight: 500;
   cursor: pointer;
   outline: none;
+  -webkit-box-shadow: 0 8px 8px -6px #f25f3a;
+          box-shadow: 0 8px 8px -6px #f25f3a;
 }
 
 /* navigation responsiveness */
