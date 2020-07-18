@@ -1,14 +1,20 @@
+@import"./navigation";
+@import"./variables";
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-size: 16px;
     font-family: 'Be Vietnam', sans-serif;
+    color: $text-color;
+
 }
 
 
-@import"./navigation";
-@import"./variables";
+
+
+
 
 
 /* grid layout */
@@ -57,7 +63,7 @@
         color: $headings-color;
     }
     p{
-        color: $text-color;
+        
         margin-top: 10px;
     }
 
@@ -68,15 +74,28 @@
 
 }
 
+.about-company{
+    p{
+        margin: 20px 0;
+    }
+    h2{
+        font-size: 35px;
+        color: $headings-color;
+    }
 
-.introduction{
+    .breadcrumbs{
+        background-color: $button-colors;
+        padding: 4px;
+        border-radius: 0 12px 0;
+        margin-right: 10px;
+        color: $button-textColor;
+    }
 
-    background-image: url("../images/bg-tablet-pattern.svg");
-    //  background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top right;
-
+    .highlight-headings{
+        color: $headings-color;
+        font-weight: 600;
     
+    }
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
