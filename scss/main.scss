@@ -113,6 +113,28 @@
         padding: 40px;
 
     }
+    .testimony{
+        text-align: center;
+        margin: 16px;
+    }
 }
+
+.call-to-action{
+
+    height: 200px;
+    background-color: $button-colors;
+    
+
+    h4{
+        font-size: 25px;
+        color: $button-textColor;
+    }
+    .cta{
+        color:  $button-colors;
+        background-color: $button-textColor;
+    }
+  
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

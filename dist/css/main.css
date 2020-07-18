@@ -277,6 +277,26 @@
   padding: 40px;
 }
 
+.testimonial .testimony {
+  text-align: center;
+  margin: 16px;
+}
+
+.call-to-action {
+  height: 200px;
+  background-color: #f25f3a;
+}
+
+.call-to-action h4 {
+  font-size: 25px;
+  color: #ffefeb;
+}
+
+.call-to-action .cta {
+  color: #f25f3a;
+  background-color: #ffefeb;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
