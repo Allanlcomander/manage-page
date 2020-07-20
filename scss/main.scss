@@ -121,17 +121,28 @@
 
 .call-to-action{
 
-    height: 200px;
-    background-color: $button-colors;
+    height: auto;
+    // background-color: $button-colors;
+    background:
+    linear-gradient(
+        to right,
+        $button-colors
+    ),
+ url('../images/bg-simplify-section-desktop.svg');
     
+    background-repeat: no-repeat;
+    background-size: cover;
 
     h4{
-        font-size: 25px;
+        font-size: 30px;
         color: $button-textColor;
+        margin: 30px;
     }
     .cta{
         color:  $button-colors;
         background-color: $button-textColor;
+        margin: 45px;
+
     }
   
 }
