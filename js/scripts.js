@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 let toggleButton = function (clicks) {
     clicks.classList.toggle("change");
 };
@@ -7,3 +14,5 @@ let navbarLinks = document.getElementsByClassName("navbar-links")[0];
 myToggle.addEventListener('click',() => {
     navbarLinks.classList.toggle('active');
 });
+
+

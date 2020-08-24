@@ -36,6 +36,12 @@
 }
 
 /* end of toggle button */
+header {
+  position: relative;
+  z-index: 99999;
+  /* position: relative; */
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,6 +81,10 @@
   font-weight: 500;
 }
 
+.navbar-links ul li:hover {
+  opacity: 40%;
+}
+
 .cta {
   background-color: #f25f3a;
   color: #ffefeb;
@@ -87,6 +97,10 @@
   outline: none;
   -webkit-box-shadow: 0 8px 8px -6px #f25f3a;
           box-shadow: 0 8px 8px -6px #f25f3a;
+}
+
+.cta:hover {
+  opacity: 40%;
 }
 
 /* navigation responsiveness */
@@ -284,14 +298,13 @@
 
 .call-to-action {
   height: auto;
-  background: -webkit-gradient(linear, left top, right top, from(#f25f3a)), url("../images/bg-simplify-section-desktop.svg");
-  background: linear-gradient(to right, #f25f3a), url("../images/bg-simplify-section-desktop.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 50px 0;
+  background: -webkit-gradient(linear, left top, right top, from(#f25f3a));
+  background: linear-gradient(to right, #f25f3a);
 }
 
 .call-to-action h4 {
-  font-size: 30px;
+  font-size: 35px;
   color: #ffefeb;
   margin: 30px;
 }
@@ -300,6 +313,64 @@
   color: #f25f3a;
   background-color: #ffefeb;
   margin: 45px;
+  position: relative;
+  top: 15px;
+  left: 180px;
+}
+
+footer {
+  height: auto;
+  background-color: #1d1e25;
+}
+
+footer .row {
+  padding: 60px 0 0 0;
+}
+
+.list-items {
+  position: relative;
+}
+
+.list-items ul {
+  list-style: none;
+}
+
+.list-items ul li {
+  padding: 5px;
+  color: #fafafa;
+}
+
+.list-items ul li:hover {
+  cursor: pointer;
+  color: #f25f3a;
+}
+
+.right {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+form {
+  position: relative;
+  left: 40px;
+  padding: 10px;
+}
+
+form input {
+  padding: 8px 8px;
+  margin: 5px;
+  border-radius: 20px;
+  border: 1px;
+  text-align: center;
+}
+
+.copy-right {
+  text-align: right;
+  font-size: 12px;
+  position: relative;
+  right: 0;
+  bottom: 0;
 }
 
 .attribution {
@@ -309,5 +380,28 @@
 
 .attribution a {
   color: #3e52a3;
+}
+
+@media (max-width: 768px) {
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+  }
+  .introduction {
+    text-align: center;
+  }
+  .introduction h1 {
+    font-size: 30px;
+  }
+  .navbar .cta {
+    display: none;
+  }
+  .call-to-action .cta {
+    margin: 45px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -33,6 +33,12 @@
 }
 
 /* end of toggle button */
+header {
+  position: relative;
+  z-index: 99999;
+  /* position: relative; */
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -64,6 +70,10 @@
   font-weight: 500;
 }
 
+.navbar-links ul li:hover {
+  opacity: 40%;
+}
+
 .cta {
   background-color: #f25f3a;
   color: #ffefeb;
@@ -75,6 +85,10 @@
   cursor: pointer;
   outline: none;
   box-shadow: 0 8px 8px -6px #f25f3a;
+}
+
+.cta:hover {
+  opacity: 40%;
 }
 
 /* navigation responsiveness */

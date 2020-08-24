@@ -42,17 +42,13 @@
   /* end of toggle button */
 
 
+  header {
+    position: relative;
+    z-index: 99999;
+  
 
-
-
-
-
-
-
-
-
-
-
+    /* position: relative; */
+  }
 
 .navbar{
     display: flex;
@@ -60,6 +56,7 @@
     align-items: center;
     width: 80%;
     margin: 0 auto;
+  
 }
 
 .navbar-links{
@@ -83,6 +80,9 @@
                 color:  hsl(228, 39%, 23%);
                 font-weight: 500; 
             }
+            &:hover{
+              opacity: 40%;
+            }
         }
 
     }
@@ -99,6 +99,9 @@
   cursor: pointer;
   outline: none;
   box-shadow: 0 8px 8px -6px $button-colors ;
+  &:hover{
+    opacity: 40%;
+  }
 }
 
 
