@@ -388,6 +388,12 @@ form input {
     padding: 15px;
     width: 100%;
   }
+  .desktop-view {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
   .introduction {
     text-align: center;
   }
@@ -397,11 +403,29 @@ form input {
   .navbar .cta {
     display: none;
   }
+  .call-to-action {
+    text-align: center;
+  }
+  .call-to-action h4 {
+    font-size: 34px;
+  }
   .call-to-action .cta {
-    margin: 45px;
+    margin: 0;
     position: relative;
-    top: 15px;
-    left: 10px;
+    top: 0;
+    left: 0;
+  }
+  footer {
+    position: relative;
+  }
+  form {
+    position: absolute;
+    top: 10px;
+    padding: 10px;
+  }
+  .copy-right {
+    position: static;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=main.css.map */

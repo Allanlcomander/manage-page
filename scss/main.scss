@@ -213,10 +213,20 @@ form{
 // media queries
 
 @media(max-width:768px){
+
+
+
     [class*="col-"] {
         float: left;
         padding: 15px; 
         width: 100%;
+      }
+     
+      .desktop-view{
+          display: none;
+      }
+      .mobile{
+          display: block;
       }
       .introduction{
         text-align: center;
@@ -233,13 +243,34 @@ form{
       }
 
       .call-to-action{
-         
+
+        text-align: center;
+         h4{
+             font-size: 34px;
+         }
         .cta{
-            margin: 45px;
+            
+            margin: 0;
             position: relative;
-            top: 15px;
-            left: 10px;
+            top: 0;
+            left: 0;
           }
 
+        }
+        footer{
+            position: relative;
+        }
+        form{
+            position: absolute;
+            top: 10px;
+            
+            padding: 10px; 
+
+            
+        }
+
+        .copy-right{
+            position: static;
+            text-align: center;
         }
 }
