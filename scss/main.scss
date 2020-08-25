@@ -86,8 +86,8 @@
 
     .breadcrumbs{
         background-color: $button-colors;
-        padding: 4px;
-        border-radius: 0 12px 0;
+        padding: 4px 12px;
+        border-radius: 12px;
         margin-right: 10px;
         color: $button-textColor;
     }
@@ -221,7 +221,9 @@ form{
         padding: 15px; 
         width: 100%;
       }
-     
+     .row{
+         width: 90%;
+     }
       .desktop-view{
           display: none;
       }
@@ -257,14 +259,25 @@ form{
           }
 
         }
+
+        .highlighted-headings{
+            background-color:  hsl(13, 100%, 96%);
+            padding: 3px 0;
+            border-radius: 10px 0 0 10px;
+            
+        }
+
         footer{
             position: relative;
         }
         form{
             position: absolute;
             top: 10px;
-            
             padding: 10px; 
+
+            .cta{
+                box-shadow: none;
+            }
 
             
         }

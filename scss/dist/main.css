@@ -244,8 +244,8 @@ header {
 
 .about-company .breadcrumbs {
   background-color: #f25f3a;
-  padding: 4px;
-  border-radius: 0 12px 0;
+  padding: 4px 12px;
+  border-radius: 12px;
   margin-right: 10px;
   color: #ffefeb;
 }
@@ -364,6 +364,9 @@ form input {
     padding: 15px;
     width: 100%;
   }
+  .row {
+    width: 90%;
+  }
   .desktop-view {
     display: none;
   }
@@ -391,6 +394,11 @@ form input {
     top: 0;
     left: 0;
   }
+  .highlighted-headings {
+    background-color: #ffefeb;
+    padding: 3px 0;
+    border-radius: 10px 0 0 10px;
+  }
   footer {
     position: relative;
   }
@@ -398,6 +406,9 @@ form input {
     position: absolute;
     top: 10px;
     padding: 10px;
+  }
+  form .cta {
+    box-shadow: none;
   }
   .copy-right {
     position: static;
