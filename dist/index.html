@@ -132,16 +132,14 @@
 
 <footer>
     <div class="row">
-        <div class="col-3">
-            <img src="images/logo.svg" alt="logo">
-            
-            <ion-icon name="logo-facebook"></ion-icon>
-            <ion-icon name="logo-youtube"></ion-icon>
-            <ion-icon name="logo-twitter"></ion-icon>
-            <ion-icon name="logo-pinterest"></ion-icon>
-            <ion-icon name="logo-instagram"></ion-icon>
+        <div class="col-4 form-element mobile">
+            <form>
+                <input type="text" placeholder="Updates in your inbox…">
+                <button class="cta">Go</button>
+                <p class="error"></p>
+            </form>
         </div>
-        <div class="col-5 list-items">
+        <div class="col-5 list-items mobile">
             <ul class="left">
                 <li>Home</li>
                 <li>Pricing</li>
@@ -154,7 +152,41 @@
                 <li>Privacy Policy</li>
             </ul>
         </div>
-        <div class="col-4">
+        <div class="col-3 logo-icons mobile">
+            <div class="icons">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-youtube"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-pinterest"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+            <img  class="bottom-logo"src="images/logo.svg" alt="logo">
+            <p class="copy-right">Copyright 2020. All Rights Reserved</p>
+        </div>
+        <div class="col-3 logo-icons desktop-view ">
+            <img  class="bottom-logo"src="images/logo.svg" alt="logo">
+            <div class="icons">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-youtube"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-pinterest"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+        </div>
+        <div class="col-5 list-items desktop-view">
+            <ul class="left">
+                <li>Home</li>
+                <li>Pricing</li>
+                <li>Products</li>
+                <li>About Us</li>
+            </ul>
+            <ul class="right">
+                <li>Careers</li>
+                <li>Community</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="col-4 desktop-view">
             <form>
                 <input type="text" placeholder="Updates in your inbox…">
                 <button class="cta">Go</button>

@@ -327,6 +327,21 @@ footer .row {
   padding: 60px 0 0 0;
 }
 
+footer .bottom-logo {
+  padding: 10px;
+}
+
+footer .icons {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 60px;
+}
+
+footer .icons ion-icon {
+  padding: 5px;
+  font-size: 20px;
+}
+
 .list-items {
   position: relative;
 }
@@ -426,17 +441,44 @@ form input {
   footer {
     position: relative;
   }
+  footer .logo-icons, footer .copy-right {
+    text-align: center;
+  }
+  footer .icons {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  footer .icons ion-icon {
+    font-size: 40px;
+  }
   form {
-    position: absolute;
-    top: 10px;
-    padding: 10px;
+    position: static;
   }
   form .cta {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
+  form input {
+    padding: 8px 8px;
+    margin: 0;
+    border-radius: 20px;
+    border: 1px;
+    text-align: center;
+  }
   .copy-right {
     position: static;
+    text-align: center;
+  }
+}
+
+@media (width: 768px) {
+  .bottom-logo {
+    display: block;
+    position: relative;
+    left: 240px;
+    margin: 10px;
+  }
+  .form-element {
     text-align: center;
   }
 }
