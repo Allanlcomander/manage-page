@@ -171,7 +171,7 @@ footer{
     .icons{
         display: inline-block;
         padding: 10px;
-        margin-top: 60px;
+        margin-top: 50px;
         ion-icon{
             padding: 5px;
             font-size: 20px;
@@ -215,6 +215,9 @@ form{
         border-radius: 20px;
         border: 1px;
         text-align: center;
+    }
+    .cta{
+        box-shadow: none;
     }
 }
 .copy-right{
@@ -293,9 +296,7 @@ form{
         footer{
             position: relative;
             
-            .bottom-logo{
-                
-            }
+            
             .logo-icons,.copy-right{
                 text-align: center;
             }
@@ -310,9 +311,7 @@ form{
 
         form{
         
-            .cta{
-                box-shadow: none;
-            }
+          
             position: static;
             input{
                 padding: 8px 8px;
