@@ -24,7 +24,7 @@
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px red solid; 
+    // border: 1px red solid;
   }
   
   .row {
@@ -118,7 +118,27 @@
     }
     .testimony{
         text-align: center;
-        margin: 16px;
+        margin: 10px;
+    }
+    .col-3{
+        border: 1px solid;
+        border-radius: 2px;
+        padding: 6px;
+    
+    
+    }
+    .right-border{
+        border-right: none;
+    }
+    .both-borders{
+        border-right: none;
+        border-left: none;
+    }
+    .left-border{
+        border-left: none;
+    }
+    .row{
+        width: 80%;
     }
 }
 
@@ -330,6 +350,14 @@ form{
         }
 }
 
+@media(width:425px){
+    
+ 
+    .form-element{
+        text-align: center;
+    }
+     
+ }
 @media(width:768px){
    .bottom-logo{
        display: block;
@@ -343,3 +371,41 @@ form{
    }
     
 }
+
+@media(width:1024px){
+    .introduction{
+        h1{
+            margin-top:30px;
+            font-size: 35px;
+        }
+    }
+
+    .testimonial{
+        font-size: 14px;
+        .row{
+            width: 95%;
+        }
+    }
+
+    .call-to-action{
+        .row{
+            width: 90%;
+        }
+        .cta{
+            
+            position: relative;
+            top: 15px;
+            left: 100px;
+    
+        }
+    }
+    footer{
+        .row{
+            width: 100%;
+        }
+        form{
+            position: static;
+        }
+    }
+     
+ }

@@ -11,8 +11,8 @@
 .bar2,
 .bar3 {
   width: 35px;
-  height: 2px;
-  background-color: #9698a6;
+  height: 5px;
+  background-color: #2d314d;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -29,13 +29,14 @@
 
 /* rotate last bar */
 .change .bar3 {
-  transform: rotate(45deg) translate(-4px, -4px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 /* end of toggle button */
 header {
   position: relative;
   z-index: 99999;
+  background-color: transparent;
   /* position: relative; */
 }
 
@@ -95,8 +96,6 @@ header {
 @media (max-width: 768px) {
   header {
     z-index: 99999;
-    background-color: #f3f4f6;
-    /* position: relative; */
   }
   .logo {
     margin: 30px;
@@ -120,13 +119,14 @@ header {
   .navbar-links ul {
     position: absolute;
     top: 120px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     flex-direction: column;
-    border: 1px solid #fafafa;
+    border: 6px solid #fafafa;
     border-radius: 5px;
     margin-bottom: 80px;
     background-color: #fafafa;
+    opacity: 100%;
   }
   .navbar-links li {
     text-align: center;
@@ -137,6 +137,12 @@ header {
   }
   .navbar-links.active {
     display: flex;
+  }
+}
+
+@media (width: 1024px) {
+  .navbar {
+    width: 90%;
   }
 }
 
@@ -153,7 +159,6 @@ header {
 [class*="col-"] {
   float: left;
   padding: 15px;
-  border: 1px red solid;
 }
 
 .row {
@@ -270,7 +275,30 @@ header {
 
 .testimonial .testimony {
   text-align: center;
-  margin: 16px;
+  margin: 10px;
+}
+
+.testimonial .col-3 {
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 6px;
+}
+
+.testimonial .right-border {
+  border-right: none;
+}
+
+.testimonial .both-borders {
+  border-right: none;
+  border-left: none;
+}
+
+.testimonial .left-border {
+  border-left: none;
+}
+
+.testimonial .row {
+  width: 80%;
 }
 
 .call-to-action {
@@ -453,6 +481,12 @@ form .cta {
   }
 }
 
+@media (width: 425px) {
+  .form-element {
+    text-align: center;
+  }
+}
+
 @media (width: 768px) {
   .bottom-logo {
     display: block;
@@ -462,6 +496,33 @@ form .cta {
   }
   .form-element {
     text-align: center;
+  }
+}
+
+@media (width: 1024px) {
+  .introduction h1 {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+  .testimonial {
+    font-size: 14px;
+  }
+  .testimonial .row {
+    width: 95%;
+  }
+  .call-to-action .row {
+    width: 90%;
+  }
+  .call-to-action .cta {
+    position: relative;
+    top: 15px;
+    left: 100px;
+  }
+  footer .row {
+    width: 100%;
+  }
+  footer form {
+    position: static;
   }
 }
 

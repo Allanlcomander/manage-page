@@ -16,8 +16,8 @@
   .bar2,
   .bar3 {
     width: 35px;
-    height: 2px;
-    background-color: hsl(233, 8%, 62%);
+    height: 5px;
+    background-color: $headings-color;
     margin: 6px 0;
     transition: 0.4s;
   }
@@ -36,7 +36,7 @@
   /* rotate last bar */
   
   .change .bar3 {
-    transform: rotate(45deg) translate(-4px, -4px);
+    transform: rotate(45deg) translate(-8px, -8px);
   }
   
   /* end of toggle button */
@@ -45,6 +45,7 @@
   header {
     position: relative;
     z-index: 99999;
+    background-color: transparent;
   
 
     /* position: relative; */
@@ -109,9 +110,7 @@
 @media (max-width: 768px) {
     header {
       z-index: 99999;
-      background-color: hsl(220, 16%, 96%);
-  
-      /* position: relative; */
+     
     }
     .logo {
       margin: 30px;
@@ -140,13 +139,14 @@
     .navbar-links ul {
       position: absolute;
       top: 120px;
-      width: 90%;
+      width: 80%;
       margin: 0 auto;
       flex-direction: column;
-      border: 1px solid hsl(0, 0%, 98%);
+      border: 6px solid hsl(0, 0%, 98%);
       border-radius: 5px;
       margin-bottom: 80px;
       background-color: hsl(0, 0%, 98%);
+      opacity: 100%;
     }
   
     .navbar-links li {
@@ -162,4 +162,8 @@
       display: flex;
     }
   }
-  
+  @media (width: 1024px){
+    .navbar{
+      width: 90%;
+    }
+  } 
