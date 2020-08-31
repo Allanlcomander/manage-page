@@ -175,6 +175,11 @@ footer{
         ion-icon{
             padding: 5px;
             font-size: 20px;
+            color: $button-textColor;
+            &:hover{
+                cursor: pointer;
+                color: $button-colors;
+            }
         }
     }
 }

@@ -340,6 +340,12 @@ footer .icons {
 footer .icons ion-icon {
   padding: 5px;
   font-size: 20px;
+  color: #ffefeb;
+}
+
+footer .icons ion-icon:hover {
+  cursor: pointer;
+  color: #f25f3a;
 }
 
 .list-items {
