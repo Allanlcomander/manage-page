@@ -162,7 +162,7 @@
         </div>
         <button aria-label="Previous" class="glider-prev">«</button>
         <button aria-label="Next" class="glider-next">»</button>
-        <div role="tablist" class="dots"></div>
+        <div role="tablist" id="resp-dots"></div>
       </div>
       <button class="cta testimony">Get Started</button>
     </section>
@@ -184,10 +184,12 @@
     <footer>
       <div class="row">
         <div class="col-4 form-element mobile">
-          <form>
-            <input type="text" placeholder="Updates in your inbox…" />
-            <button class="cta">Go</button>
-            <p class="error"></p>
+          <form id="email-form">
+            <div class="form">
+                <input class="email" type="email" placeholder="Updates in your inbox…" />
+                <button type="submit" class="cta">Go</button>
+            <p class="error-msg"></p>
+            </div>
           </form>
         </div>
         <div class="col-5 list-items mobile">
@@ -238,10 +240,12 @@
           </ul>
         </div>
         <div class="col-4 desktop-view">
-          <form>
-            <input type="text" placeholder="Updates in your inbox…" />
-            <button class="cta">Go</button>
-            <p class="error"></p>
+          <form id="email-form">
+              <div class="form">
+            <input  class="email" type="email" placeholder="Updates in your inbox…"  />
+            <button type="submit" class="cta">Go</button>
+            <p class="error-msg"></p>
+        </div>
           </form>
 
           <p class="copy-right">Copyright 2020. All Rights Reserved</p>

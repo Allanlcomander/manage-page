@@ -131,12 +131,13 @@
     
     }
     .glider-track{
-        padding: 50px;
+        margin: 50px 0 ;
     }
     .avatars{
         width: 20%;
         position: relative;
         top: -70px;
+        z-index: 9999p;
     }
 
     .name{
@@ -145,6 +146,7 @@
         position: relative;
         top: -40px;
     }
+
     
     .row{
         width: 80%;
@@ -244,10 +246,26 @@ form{
         border-radius: 20px;
         border: 1px;
         text-align: center;
+        color: $button-colors;
+
+        &::placeholder{
+            color: $button-colors;
+        }
     }
     .cta{
         box-shadow: none;
     }
+}
+
+.error-msg{
+
+    position: relative;
+    top: -1px;
+    left: 20px;
+    font-size: 14px;
+    font-style: italic;
+    
+    color: $button-colors;
 }
 .copy-right{
     text-align: right;
@@ -321,6 +339,17 @@ form{
             border-radius: 10px 0 0 10px;
             
         }
+        .testimonial{
+            .col-3{
+                padding: 10px;
+            }
+
+            .avatars{
+                width: 30%;
+            }
+        }
+
+    
  
         footer{
             position: relative;

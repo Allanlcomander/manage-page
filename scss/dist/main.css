@@ -288,13 +288,14 @@ header {
 }
 
 .testimonial .glider-track {
-  padding: 50px;
+  margin: 50px 0;
 }
 
 .testimonial .avatars {
   width: 20%;
   position: relative;
   top: -70px;
+  z-index: 9999p;
 }
 
 .testimonial .name {
@@ -395,10 +396,24 @@ form input {
   border-radius: 20px;
   border: 1px;
   text-align: center;
+  color: #f25f3a;
+}
+
+form input::placeholder {
+  color: #f25f3a;
 }
 
 form .cta {
   box-shadow: none;
+}
+
+.error-msg {
+  position: relative;
+  top: -1px;
+  left: 20px;
+  font-size: 14px;
+  font-style: italic;
+  color: #f25f3a;
 }
 
 .copy-right {
@@ -458,6 +473,12 @@ form .cta {
     background-color: #ffefeb;
     padding: 3px 0;
     border-radius: 10px 0 0 10px;
+  }
+  .testimonial .col-3 {
+    padding: 10px;
+  }
+  .testimonial .avatars {
+    width: 30%;
   }
   footer {
     position: relative;

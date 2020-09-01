@@ -1,3 +1,6 @@
+
+// carousel
+
 window.addEventListener('load', function(){
     new Glider(document.querySelector('.glider'), {
       
@@ -23,6 +26,15 @@ window.addEventListener('load', function(){
         duration: 0.25
       }
     },{
+        // screens 1440px
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          itemWidth: 150,
+          duration: 0.25
+        }
+      },{
       // screens 1024px
       breakpoint: 1024,
       settings: {
@@ -78,7 +90,7 @@ window.addEventListener('load', function(){
 
 
 
-
+// navigation toggle
 let toggleButton = function (clicks) {
     clicks.classList.toggle("change");
 };
@@ -89,4 +101,46 @@ myToggle.addEventListener('click',() => {
     navbarLinks.classList.toggle('active');
 });
 
+
+// Email validation
+
+const emailUpdates = document.querySelector("#email-form");
+
+emailUpdates.addEventListener("submit",(e)=>{
+
+    e.preventDefault();
+
+    const email = document.querySelector(".email").value;
+
+    if(email === ''){
+
+        addError("email","Email cannot be empty");
+
+    } else if(!validateEmail(email)){
+
+        addError("email", "Please insert a valid email");
+    } else{
+        removeError("email");
+    }
+
+});
+
+function addError(field, msg){
+    const selectForm = document.querySelector("."+field).parentNode;
+    selectForm.classList.add('error');
+
+    const errorMsg = selectForm.querySelector('.error-msg');
+    errorMsg.innerHTML = msg;
+    
+}
+
+function removeError(field){
+    const selectForm = document.querySelector("."+field).parentNode;
+    selectForm.classList.remove('error');
+}
+
+function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
 
