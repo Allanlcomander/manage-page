@@ -519,6 +519,7 @@ form .cta {
   }
   footer {
     position: relative;
+    padding-top: 30px;
   }
   footer .logo-icons, footer .copy-right {
     text-align: center;
@@ -540,6 +541,11 @@ form .cta {
     border: 1px;
     text-align: center;
   }
+  .form-resp {
+    position: relative;
+    top: -420px;
+    margin-bottom: 20px;
+  }
   .copy-right {
     position: static;
     text-align: center;
@@ -549,6 +555,11 @@ form .cta {
 @media (width: 425px) {
   .form-element {
     text-align: center;
+  }
+  .error-msg {
+    position: relative;
+    left: 40px;
+    text-align: left;
   }
 }
 
@@ -560,6 +571,16 @@ form .cta {
     margin: 10px;
   }
   .form-element {
+    text-align: center;
+  }
+  .form-resp {
+    position: relative;
+    top: -440px;
+    margin-bottom: 20px;
+  }
+  .error-msg {
+    position: relative;
+    left: -40px;
     text-align: center;
   }
 }

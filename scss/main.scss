@@ -353,6 +353,7 @@ form{
  
         footer{
             position: relative;
+            padding-top: 30px;
             
             
             .logo-icons,.copy-right{
@@ -368,9 +369,11 @@ form{
         }
 
         form{
-        
+            
+            
           
             position: static;
+            
             input{
                 padding: 8px 8px;
                 margin: 0;
@@ -381,6 +384,16 @@ form{
 
             
         }
+
+        .form-resp{
+            position: relative;
+            top: -420px;
+            margin-bottom: 20px;
+        }
+
+        
+
+        
 
         .copy-right{
             position: static;
@@ -393,6 +406,12 @@ form{
  
     .form-element{
         text-align: center;
+    }
+
+    .error-msg{
+        position: relative;
+        left: 40px;
+        text-align: left;
     }
      
  }
@@ -407,7 +426,17 @@ form{
    .form-element{
        text-align: center;
    }
-    
+   .form-resp{
+    position: relative;
+    top: -440px;
+    margin-bottom: 20px;
+}
+   
+.error-msg{
+    position: relative;
+    left: -40px;
+    text-align: center;
+}
 }
 
 @media(width:1024px){
