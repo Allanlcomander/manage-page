@@ -1,209 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Manage landing page</title>
-  <link rel="stylesheet" href="./dist/css/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-<header>
-    <nav class="navbar">
-        <img class="logo" src="images/logo.svg" alt="logo" >
+    <title>Frontend Mentor | Manage landing page</title>
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="Glider/glider.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img class="logo" src="images/logo.svg" alt="logo" />
 
         <div class="toggle-btn" onclick="toggleButton(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>
-        
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
         <div class="navbar-links">
-            <ul>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Community</a></li>
-            </ul>
+          <ul>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
         </div>
         <button class="cta">Get Started</button>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<section class="introduction">
-    <div class="row">
-        <div class="col-6 mobile"><img src="images/illustration-intro.svg" alt="illustration-intro" style="width: 100%;"> </div>
-        <div class="col-6 ">
-            <h1>Bring everyone together to build <br> better products.</h1>
-            <p>Manage makes it simple for software teams <br> to plan day-to-day 
-                tasks while keeping the <br> larger team goals in view.</p>
-                <button class="cta">Get Started</button>
+    <section class="introduction">
+      <div class="row">
+        <div class="col-6 mobile">
+          <img
+            src="images/illustration-intro.svg"
+            alt="illustration-intro"
+            style="width: 100%"
+          />
+        </div>
+        <div class="col-6">
+          <h1>
+            Bring everyone together to build <br />
+            better products.
+          </h1>
+          <p>
+            Manage makes it simple for software teams <br />
+            to plan day-to-day tasks while keeping the <br />
+            larger team goals in view.
+          </p>
+          <button class="cta">Get Started</button>
         </div>
         <div class="col-6 desktop-view">
-            <img src="images/illustration-intro.svg" alt="illustration-intro" style="width: 100%;">
+          <img
+            src="images/illustration-intro.svg"
+            alt="illustration-intro"
+            style="width: 100%"
+          />
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section class="about-company">
-    <div class="row">
+    <section class="about-company">
+      <div class="row">
         <div class="col-6">
-            <h2>What’s different about Manage?</h2>
-            <p>Manage provides all the functionality your team needs, without 
-                the complexity. Our software is tailor-made for modern digital 
-                product teams. </p>
+          <h2>What’s different about Manage?</h2>
+          <p>
+            Manage provides all the functionality your team needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams.
+          </p>
         </div>
         <div class="col-6">
-            <p class="highlighted-headings"><span class="breadcrumbs">01</span>Track company-wide progress</p>
-            <p> See how your day-to-day tasks fit into the wider vision. Go from 
-                tracking progress at the milestone level all the way done to the 
-                smallest of details. Never lose sight of the bigger picture again.</p>
+          <p class="highlighted-headings">
+            <span class="breadcrumbs">01</span>Track company-wide progress
+          </p>
+          <p>
+            See how your day-to-day tasks fit into the wider vision. Go from
+            tracking progress at the milestone level all the way done to the
+            smallest of details. Never lose sight of the bigger picture again.
+          </p>
 
-            <p class="highlighted-headings"><span class="breadcrumbs">02</span>Advanced built-in reports</p>
-            <p> Set internal delivery estimates and track progress toward company 
-                goals. Our customisable dashboard helps you build out the reports 
-                you need to keep key stakeholders informed.</p>
+          <p class="highlighted-headings">
+            <span class="breadcrumbs">02</span>Advanced built-in reports
+          </p>
+          <p>
+            Set internal delivery estimates and track progress toward company
+            goals. Our customisable dashboard helps you build out the reports
+            you need to keep key stakeholders informed.
+          </p>
 
-            <p class="highlighted-headings"><span class="breadcrumbs">03</span>Everything you need in one place</p>
-            <p>Stop jumping from one service to another to communicate, store files, 
-                track tasks and share documents. Manage offers an all-in-one team 
-                productivity solution.</p>
+          <p class="highlighted-headings">
+            <span class="breadcrumbs">03</span>Everything you need in one place
+          </p>
+          <p>
+            Stop jumping from one service to another to communicate, store
+            files, track tasks and share documents. Manage offers an all-in-one
+            team productivity solution.
+          </p>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- testimonial -->
+    <!-- testimonial -->
 
-<section class="testimonial">
-    <h3>What they’ve said</h3>
- <div class="row ">
-
-        <div class="col-3 right-border">
-            <img class="avatars"  src="images/avatar-anisha.png" alt="avatar-anisha">
+    <section class="testimonial">
+      <h3>What they’ve said</h3>
+      <div class="row glider-contain">
+        <div class="glider">
+          <div class="col-3 right-border">
+            <img class="avatars"src="images/avatar-anisha.png"alt="avatar-anisha"/>
             <p>Anisha Li</p>
-            <p>“Manage has supercharged our team’s workflow. The ability to maintain 
-                visibility on larger milestones at all times keeps everyone motivated.”</p>
-        </div>
-        <div class="col-3 both-borders">
-            <img class="avatars" src="images/avatar-ali.png" alt="avatar-ali">
+            <p>
+              “Manage has supercharged our team’s workflow. The ability to
+              maintain visibility on larger milestones at all times keeps
+              everyone motivated.”
+            </p>
+          </div>
+          <div class="col-3 both-borders">
+            <img class="avatars" src="images/avatar-ali.png" alt="avatar-ali" />
             <p>Ali Bravo</p>
-            <p>“We have been able to cancel so many other subscriptions since using 
-                Manage. There is no more cross-channel confusion and everyone is much 
-                more focused.”</p>
-        </div>
-        <div class="col-3 both-borders">
-            <img class="avatars" src="images/avatar-richard.png" alt="avatar-richard">
+            <p>
+              “We have been able to cancel so many other subscriptions since
+              using Manage. There is no more cross-channel confusion and
+              everyone is much more focused.”
+            </p>
+          </div>
+          <div class="col-3 both-borders">
+            <img class="avatars" src="images/avatar-richard.png" alt="avatar-richard"/>
             <p>Richard Watts</p>
-            <p>“Manage allows us to provide structure and process. It keeps us organized 
-                and focused. I can’t stop recommending them to everyone I talk to!”</p>
-        </div>
-        <div class="col-3 left-border">
-            <img class="avatars" src="images/avatar-shanai.png" alt="avatar-shanai">
+            <p>
+              “Manage allows us to provide structure and process. It keeps us
+              organized and focused. I can’t stop recommending them to everyone
+              I talk to!”
+            </p>
+          </div>
+          <div class="col-3 left-border">
+            <img class="avatars" src="images/avatar-shanai.png" alt="avatar-shanai"/>
             <p>Shanai Gough</p>
-            <p>“Their software allows us to track, manage and collaborate on our projects 
-                from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+            <p>
+              “Their software allows us to track, manage and collaborate on our
+              projects from anywhere. It keeps the whole team in-sync without
+              being intrusive.”
+            </p>
+          </div>
+
         </div>
-        
-        
-     
-     
-    
-    </div>
-    <button class="cta testimony">Get Started</button>
-</section>
-  <!-- call to action -->
-<section class="call-to-action">
-    <div class="row">
+        <button aria-label="Previous" class="glider-prev">«</button>
+        <button aria-label="Next" class="glider-next">»</button>
+        <div role="tablist" class="dots"></div>
+      </div>
+      <button class="cta testimony">Get Started</button>
+    </section>
+    <!-- call to action -->
+    <section class="call-to-action">
+      <div class="row">
         <div class="col-8">
-            <h4>Simplify how your team <br> works today.</h4>
+          <h4>
+            Simplify how your team <br />
+            works today.
+          </h4>
         </div>
         <div class="col-4 call-to-action-buton">
-            <button class="cta">Get Started</button>
+          <button class="cta">Get Started</button>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<footer>
-    <div class="row">
+    <footer>
+      <div class="row">
         <div class="col-4 form-element mobile">
-            <form>
-                <input type="text" placeholder="Updates in your inbox…">
-                <button class="cta">Go</button>
-                <p class="error"></p>
-            </form>
+          <form>
+            <input type="text" placeholder="Updates in your inbox…" />
+            <button class="cta">Go</button>
+            <p class="error"></p>
+          </form>
         </div>
         <div class="col-5 list-items mobile">
-            <ul class="left">
-                <li>Home</li>
-                <li>Pricing</li>
-                <li>Products</li>
-                <li>About Us</li>
-            </ul>
-            <ul class="right">
-                <li>Careers</li>
-                <li>Community</li>
-                <li>Privacy Policy</li>
-            </ul>
+          <ul class="left">
+            <li>Home</li>
+            <li>Pricing</li>
+            <li>Products</li>
+            <li>About Us</li>
+          </ul>
+          <ul class="right">
+            <li>Careers</li>
+            <li>Community</li>
+            <li>Privacy Policy</li>
+          </ul>
         </div>
         <div class="col-3 logo-icons mobile">
-            <div class="icons">
-                <ion-icon name="logo-facebook"></ion-icon>
-                <ion-icon name="logo-youtube"></ion-icon>
-                <ion-icon name="logo-twitter"></ion-icon>
-                <ion-icon name="logo-pinterest"></ion-icon>
-                <ion-icon name="logo-instagram"></ion-icon>
-            </div>
-            <img  class="bottom-logo"src="images/logo-white.svg" alt="logo">
-            <p class="copy-right">Copyright 2020. All Rights Reserved</p>
+          <div class="icons">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-youtube"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-pinterest"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+          </div>
+          <img class="bottom-logo" src="images/logo-white.svg" alt="logo" />
+          <p class="copy-right">Copyright 2020. All Rights Reserved</p>
         </div>
-        <div class="col-3 logo-icons desktop-view ">
-            <img  class="bottom-logo"src="images/logo-white.svg" alt="logo">
-            <div class="icons">
-                <ion-icon name="logo-facebook"></ion-icon>
-                <ion-icon name="logo-youtube"></ion-icon>
-                <ion-icon name="logo-twitter"></ion-icon>
-                <ion-icon name="logo-pinterest"></ion-icon>
-                <ion-icon name="logo-instagram"></ion-icon>
-            </div>
+        <div class="col-3 logo-icons desktop-view">
+          <img class="bottom-logo" src="images/logo-white.svg" alt="logo" />
+          <div class="icons">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-youtube"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-pinterest"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+          </div>
         </div>
         <div class="col-5 list-items desktop-view">
-            <ul class="left">
-                <li>Home</li>
-                <li>Pricing</li>
-                <li>Products</li>
-                <li>About Us</li>
-            </ul>
-            <ul class="right">
-                <li>Careers</li>
-                <li>Community</li>
-                <li>Privacy Policy</li>
-            </ul>
+          <ul class="left">
+            <li>Home</li>
+            <li>Pricing</li>
+            <li>Products</li>
+            <li>About Us</li>
+          </ul>
+          <ul class="right">
+            <li>Careers</li>
+            <li>Community</li>
+            <li>Privacy Policy</li>
+          </ul>
         </div>
         <div class="col-4 desktop-view">
-            <form>
-                <input type="text" placeholder="Updates in your inbox…">
-                <button class="cta">Go</button>
-                <p class="error"></p>
-            </form>
+          <form>
+            <input type="text" placeholder="Updates in your inbox…" />
+            <button class="cta">Go</button>
+            <p class="error"></p>
+          </form>
 
-            <p class="copy-right">Copyright 2020. All Rights Reserved</p>
+          <p class="copy-right">Copyright 2020. All Rights Reserved</p>
         </div>
-       
-    </div>
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
       </div>
-</footer>
-<script src="jquery.js"></script>
-<script src="owlcarousel/owl.carousel.min.js"></script>
-<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-<script src="js/scripts.js"></script>
-
-</body>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+    <script src="jquery.js"></script>
+    <script src="Glider/glider.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>

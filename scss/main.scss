@@ -121,22 +121,13 @@
         margin: 10px;
     }
     .col-3{
-        border: 1px solid;
+        border: 1px;
         border-radius: 2px;
         padding: 6px;
+        margin: 5px;
+        background-color: hsl(0, 0%, 98%);
+    }
     
-    
-    }
-    .right-border{
-        border-right: none;
-    }
-    .both-borders{
-        border-right: none;
-        border-left: none;
-    }
-    .left-border{
-        border-left: none;
-    }
     .row{
         width: 80%;
     }
