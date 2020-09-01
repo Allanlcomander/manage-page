@@ -279,11 +279,29 @@ header {
 }
 
 .testimonial .col-3 {
-  border: 1px;
+  position: relative;
+  border: 5px solid #fafafa;
   border-radius: 2px;
-  padding: 6px;
-  margin: 5px;
+  padding: 30px;
+  margin: 15px;
   background-color: #fafafa;
+}
+
+.testimonial .glider-track {
+  padding: 50px;
+}
+
+.testimonial .avatars {
+  width: 20%;
+  position: relative;
+  top: -70px;
+}
+
+.testimonial .name {
+  color: #2d314d;
+  font-weight: 600;
+  position: relative;
+  top: -40px;
 }
 
 .testimonial .row {

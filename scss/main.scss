@@ -121,11 +121,29 @@
         margin: 10px;
     }
     .col-3{
-        border: 1px;
+        position: relative;
+        border: 5px solid hsl(0, 0%, 98%);
         border-radius: 2px;
-        padding: 6px;
-        margin: 5px;
+        padding: 30px;
+        margin: 15px;
         background-color: hsl(0, 0%, 98%);
+        
+    
+    }
+    .glider-track{
+        padding: 50px;
+    }
+    .avatars{
+        width: 20%;
+        position: relative;
+        top: -70px;
+    }
+
+    .name{
+        color: $headings-color;
+        font-weight: 600;
+        position: relative;
+        top: -40px;
     }
     
     .row{

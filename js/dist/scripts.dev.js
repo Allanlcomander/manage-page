@@ -22,10 +22,46 @@ window.addEventListener('load', function () {
         duration: 0.25
       }
     }, {
-      // screens greater than >= 1024px
+      // screens 1024px
       breakpoint: 1024,
       settings: {
         slidesToShow: 2,
+        slidesToScroll: 1,
+        itemWidth: 150,
+        duration: 0.25
+      }
+    }, {
+      // screens 768px
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        itemWidth: 180,
+        duration: 0.25
+      }
+    }, {
+      // screens 425px
+      breakpoint: 425,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        itemWidth: 150,
+        duration: 0.25
+      }
+    }, {
+      // screens  375px
+      breakpoint: 375,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        itemWidth: 150,
+        duration: 0.25
+      }
+    }, {
+      // screens 320px
+      breakpoint: 320,
+      settings: {
+        slidesToShow: 1,
         slidesToScroll: 1,
         itemWidth: 150,
         duration: 0.25
