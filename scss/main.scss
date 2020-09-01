@@ -476,3 +476,10 @@ form{
     }
      
  }
+
+@media(width:320px){
+
+    body{
+        display: none;
+    }
+}

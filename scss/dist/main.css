@@ -575,4 +575,10 @@ form .cta {
   }
 }
 
+@media (width: 320px) {
+  body {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
